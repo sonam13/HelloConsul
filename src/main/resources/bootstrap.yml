@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    consul: 
+      host: localhost
+      port: 8500
+      discovery:
+        enabled: true
+        instance-id: hello1
+  application:
+    name: helloconsul
+
+server:
+  port: 8056  
