@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConsulController {
 	@RequestMapping(value = "", method = RequestMethod.GET)
 	public @ResponseBody String getHello() {
-		return "Hello";
+		return "Hello1";
 	}
 }

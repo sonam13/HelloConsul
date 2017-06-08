@@ -10,4 +10,4 @@ spring:
     name: helloconsul
 
 server:
-  port: 8056  
+  port: 8057 
