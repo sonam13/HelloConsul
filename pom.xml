@@ -99,7 +99,7 @@ https://mvnrepository.com/artifact/com.orbitz.consul/consul-client
 	</properties>
 
 <build>
-		<plugins>
+	<!-- 	<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -112,13 +112,13 @@ https://mvnrepository.com/artifact/com.orbitz.consul/consul-client
 				</executions>
 			</plugin>
 			<plugin>
-				<!--skip deploy -->
+				skip deploy
 				<artifactId>maven-deploy-plugin</artifactId>
 				<configuration>
 					<skip>true</skip>
 				</configuration>
 			</plugin>
-		</plugins>
+		</plugins> -->
 	</build>
 
 	<dependencies>
